@@ -1,16 +1,56 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "title": "new title ",
+      "views": 300,
+      "id": "3"
     }
   ],
-  "comments" : [
+  "comments": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
     }
-  ]
+  ],
+  "users": [
+    {
+      "id": "1",
+      "first_name": "Sai",
+      "last_name": "Munagala",
+      "age": 30,
+      "gender": "Male",
+      "email": "sai@gmail.com",
+      "password": "sai@123",
+      "valid": true
+    },
+    {
+      "id": "2",
+      "first_name": "Radha",
+      "last_name": "K",
+      "age": 30,
+      "gender": "Female",
+      "email": "radha@gmail.com",
+      "password": "radha@123",
+      "valid": true
+    }
+  ],
+  "profile": {
+    "name": "Sai"
+  }
 }
